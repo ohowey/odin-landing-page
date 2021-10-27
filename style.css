@@ -25,6 +25,7 @@
     height: 100px;
     background-color: bisque;
     flex-shrink: 0;
+
 }
 /*text color of logo and title*/
 .hero,.header-logo {
@@ -58,6 +59,7 @@ button {
     border-style: none;
     padding-left: 24px;
     padding-right: 24px;
+    flex-shrink: 0;
 }
 
 /* Section 2 */
@@ -117,4 +119,27 @@ button {
     display: flex;
     justify-content: flex-end;
     font-weight: bold;
+}
+
+/* Here comes the call to action*/
+.container {
+    background-color: #3882f8;
+    border-radius: 4px;
+    margin: 100px;
+    display: flex;
+    padding: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-text {
+    color: white;
+}
+
+.call {
+    font-weight: bold;
+}
+
+.call-button {
+    border: 2px solid white;
 }
