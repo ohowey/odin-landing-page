@@ -1,0 +1,2 @@
+This is the second project in the Odin Foundations curriculum. This one will test my ability to properly organize html elements and apply
+style to them with css. I will be creating a landing page for a fake website and organizing the elements with flexbox.
