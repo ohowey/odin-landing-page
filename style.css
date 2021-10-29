@@ -1,7 +1,11 @@
-body {
-    display: flex;
-    flex-direction: column;
+* {
+    margin: 0;
+    padding: 0;
 }
+/* That made it go to the edge of the page*/
+
+
+/*Is this necessary and how do I get the elements to the edges?*/
 
 .top {
     background-color: #1F2937;
@@ -75,13 +79,16 @@ button {
 
 .cards {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding-bottom: 100px;
+    flex-wrap: wrap;
 }
 
 .card {
     max-width: 150px;
+    padding: 24px;
+    text-align: center;
 }
 
 .potato-text {
